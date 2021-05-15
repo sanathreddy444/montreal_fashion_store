@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	
+}
+.btnwhite{
+	background-color: white;
+	color: #670001;
+}
+.input-group{
+	border-bottom: 2px solid gray;
+}
+
+.signin-box{
+	margin: 0px auto;
+	background-color: white;
+	padding: 30px;
+	box-shadow: 0 5px 14px rgba(216, 214, 214, 0.75);
+	display: block;
+}
+.signbtn{
+	background-color: #670001;
+	color: white !important;
+}
+.regbtn{
+	background-color: transparent;
+	color: #670001 !important;
+	border:1px solid #670001;
+}
+.boxhead{
+	color: #670001;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 0px 0px 0px;
+}
+
+table, th, td {
+	border: 1px solid white;
+
+}
+
+th, td {
+	padding: 10px;
+}
+
+.inventory-filter {
+	background-color: black;
+	color: white;
+	padding-top: 6px !important;
+	padding-right: 6px;
+}
+
+.logout {
+	cursor: pointer;
+	float: right;
+	font-size: medium;
+	padding: 0 50px 0px 0px;
+	color: darkorange;
+}
