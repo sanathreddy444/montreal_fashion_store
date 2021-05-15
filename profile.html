@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+Register and view customers
+-->
+<html>
+
+<head>
+	<title>Car Rental </title>
+	<script src="script.js" type="text/javascript" />
+	</script>
+	<link href="pstyles.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body onload="customerProfile()" class="background">
+	<div class="logoBackground">
+		<div class="logo">
+			<h6>Montreal Fashion Store <h6>
+		</div>
+
+	</div>
+	<div class="logout" onclick="logout()">Logout</div>
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li id="active"><a href="">Profile</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="orders.html">Orders</a></li>
+			<li><a href="cart.html">Cart</a></li>
+		</ul>
+	</div>
+	<!-- <div class="leftContent">
+	<h1> view profile  </h1>
+First Name: <input type="text" name="fname"/><br><br>
+Last Name: <input type="text" name="lname"/><br><br>
+Email : <input type="text" name="age"/><br><br>
+Driving License No: <input type="text" name="dlno"/><br><br>
+Phone No:<input type="text" name="ino"/><br><br>
+<input type="submit" name="submit" value="edit ">
+</form></b>	
+    </div>	 -->
+
+	<section class="r-car-showcase-wrapper" style="padding-top: 50px;">
+		<div class="r-best-vehicles">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3"></div>
+					<div class="col-lg-6">
+						<div class="r-car-filter-area">
+						</div>
+
+						<div class="r-car-showcase">
+							<div class="row clearfix r-best-offer-list" id="inventory">
+
+							</div>
+						</div>
+
+						<form name="profile" style="color: white;">
+							<div class="row mx-1">
+								<div class="col-md-6 mb-2">
+									<label>First name:</label>
+									<input type="text" class="form-control" placeholder="enter " name="first_name">
+								</div>
+								<div class="col-md-6 mb-2">
+									<label>Last name:</label>
+									<input type="text" class="form-control" placeholder="enter " name="last_name">
+								</div>
+
+								<div class="col-md-6 mb-2">
+									<label>Phone Number:</label>
+									<input type="text" class="form-control" placeholder="enter " name="phone_number">
+								</div>
+								<div class="col-md-6 mb-2">
+									<label>Email:</label>
+									<input type="text" class="form-control" placeholder="enter " name="email" disabled>
+								</div>
+								<div class="col-md-12">
+									<a class="btn signbtn btn-block" onclick="updateProfile()">Update Profile</a>
+								</div>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- <div class="rightContent">
+	<b><form action="viewcustomer.php" method="post" >
+	<h1> VIEW Bookings </h1>
+	<input type="submit" value="View"/>
+	</form></b>	
+	</div> -->
+
+</body>
+
+</html>
